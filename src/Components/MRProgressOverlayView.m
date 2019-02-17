@@ -184,7 +184,7 @@ static void *MRProgressOverlayViewObservationContext = &MRProgressOverlayViewObs
     UIView *dialogView = [UIView new];
     [self addSubview:dialogView];
     self.dialogView = dialogView;
-    [self applyMotionEffects];
+//    [self applyMotionEffects];
     
     // Style the dialog to match the iOS7 UIAlertView
     dialogView.backgroundColor = UIColor.clearColor;
